@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai 5</title>
+</head>
+<body>
+<script>
+    let arr1 = ['Polaris', 'Aldebaran', 'Deneb', 'Vega', 'Altair', 'Dubhe'];
+    let arr2 = ['Ursa Minor', 'Tarurus', 'Cygnus', 'Lyra', 'Aquila', 'Ursa Major', 'Leo'];
+    let str = prompt("Nhap ten cua ngoi sao: ");
+    function checkStart() {
+        for(let i=0; i< arr1.length; i++){
+            if(str===arr1[i]){
+                document.write(arr2[i]);
+            }
+        }
+    }
+    checkStart()
+</script>
+
+</body>
+</html>
